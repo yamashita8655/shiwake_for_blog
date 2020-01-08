@@ -1,0 +1,6 @@
+Splash
+Title
+Home
+InGame
+Result
+Fade

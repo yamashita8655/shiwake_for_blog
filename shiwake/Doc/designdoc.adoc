@@ -1,0 +1,108 @@
+:lang: ja
+:doctype: book
+:toc: left
+:toclevels: 3
+:toc-title: 目次
+:sectnums:
+:sectnumlevels: 4
+:sectlinks:
+//:imagesdir: ./_images
+:imagesdir: ./img
+:icons: font
+:source-highlighter: coderay
+:example-caption: 例
+:table-caption: 表
+:figure-caption: 図
+:docname: = デザイン資料
+:author: NOA.TEC株式会社
+:revnumber: 0.1
+:revdate: 2020/01/08
+:pdf-fontsdir: ./fonts
+:pdf-style: custom-theme.yml
+= デザイン資料
+
+== シーン詳細
+
+このシーン遷移の情報は、メタデータ上で設定したものであり、若干自動化とはかけ離れていますが、ある意味汎用性は高くなっています。 +
+
+=== スプラッシュ画面
+image::Splash.png[name, 150, 100]
+ゲーム開始時のスプラッシュ画面です。 +
+
+=== タイトル画面
+image::Title.png[name, 150, 100]
+タイトル画面です。 +
+
+=== ホーム画面
+image::Home.png[name, 150, 100]
+ホーム画面です。 +
+
+=== ファストフリック
+image::InGame.png[name, 150, 100]
+ゲーム画面です。 +
+
+=== シーン間フェード演出
+image::Title20200108230648.png[name, 150, 100]
+image::InGame20200108230658.png[name, 150, 100]
+シーン間フェードです。 +
+
+ここから下の画像パーツが、UnityEditor上から自動生成された物です。 +
+
+== 個別素材詳細
+
+=== Splash
+image::../../Assets/Resources/Image/Splash/SplashBackground.png[name, 100, 100]
+fileName:Assets/Resources/Image/Splash/SplashBackground.png +
+Width:2160 +
+Height:1080 +
+
+=== Title
+image::../../Assets/Resources/Image/Title/PushStart.png[name, 100, 100]
+fileName:Assets/Resources/Image/Title/PushStart.png +
+Width:400 +
+Height:80 +
+
+image::../../Assets/Resources/Image/Title/TitleBackground.png[name, 100, 100]
+fileName:Assets/Resources/Image/Title/TitleBackground.png +
+Width:2160 +
+Height:1080 +
+
+=== Home
+image::../../Assets/Resources/Image/Home/GameStartButton.png[name, 100, 100]
+fileName:Assets/Resources/Image/Home/GameStartButton.png +
+Width:256 +
+Height:256 +
+
+image::../../Assets/Resources/Image/Home/HomeBackground.png[name, 100, 100]
+fileName:Assets/Resources/Image/Home/HomeBackground.png +
+Width:2160 +
+Height:1080 +
+
+=== InGame
+image::../../Assets/Resources/Image/InGame/InGameBackground.png[name, 100, 100]
+fileName:Assets/Resources/Image/InGame/InGameBackground.png +
+Width:2160 +
+Height:1080 +
+
+=== Fade
+image::../../Assets/Resources/Image/Fade/FadeMask.png[name, 100, 100]
+fileName:Assets/Resources/Image/Fade/FadeMask.png +
+Width:1080 +
+Height:2160 +
+
+image::../../Assets/Resources/Image/Fade/FadeWhite.png[name, 100, 100]
+fileName:Assets/Resources/Image/Fade/FadeWhite.png +
+Width:32 +
+Height:32 +
+
+== その他
+image::../../Assets/Resources/Image/UI/bluebutton.png[name, 100, 100]
+fileName:Assets/Resources/Image/UI/bluebutton.png +
+Width:256 +
+Height:64 +
+
+image::../../Assets/Resources/Image/UI/redbutton.png[name, 100, 100]
+fileName:Assets/Resources/Image/UI/redbutton.png +
+Width:256 +
+Height:64 +
+
